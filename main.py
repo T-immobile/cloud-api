@@ -2,6 +2,7 @@
 """...
 """
 
+
 def cloud_api(request):
     """Responds to any HTTP request.
     Args:
