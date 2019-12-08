@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """...
 """
+from flask import Flask
 
 
 def cloud_api(request):
