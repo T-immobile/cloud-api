@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 """...
 """
-from flask import Flask
+import sys
 
+# [START functions_cloud_api]
+from flask import escape
 
+# [END functions_cloud_api]
+
+# [START functions_cloud_api]
 def cloud_api(request):
     """Responds to any HTTP request.
     Args:
@@ -20,3 +25,4 @@ def cloud_api(request):
         return request_json['message']
     else:
         return f'Hello World!'
+# [END functions_cloud_api]
